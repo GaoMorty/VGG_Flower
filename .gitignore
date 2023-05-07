@@ -1,0 +1,28 @@
+# 前端
+.DS_Store
+node_modules/
+/dist/
+dist/
+.project
+unpackage/
+
+# Java
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+# 编辑器
+.vscode/
+.idea
+*.iws
+*.iml
+*.ipr
+.mvn
+mvnw*
+# AI
+/Ai/dataset
+/Ai/model
+/__pycache__
+/Ai/__pycache__
