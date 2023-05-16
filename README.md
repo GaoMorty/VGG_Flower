@@ -22,11 +22,15 @@ redis-server
 
 ## 启动AI服务器
 
+### 训练
+
+### 识别
+
 ```shell
 python distinguish.py
-//http://127.0.0.1:8086/predict/
+http://127.0.0.1:8086/classifierhtml
 ```
-
+![](./resources/images/AI-识别.png)
 ## 启动前端
 
 ```shell
