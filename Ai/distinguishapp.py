@@ -1,7 +1,7 @@
 from PIL import Image
 import tensorflow as tf
-#from tensorflow.keras.models import load_model
-#from tensorflow.keras import utils
+from tensorflow.keras.models import load_model
+from tensorflow.keras import utils
 from flask import Flask, request, jsonify, render_template
 from io import BytesIO
 import numpy as np
@@ -14,7 +14,7 @@ app.config['JSON_AS_ASCII'] = False
 
 global model
 # 读取模型
-model = tf.keras.models.load_model('model/flowervgg13after.hdf5')
+model = load_model('model/flowervgg13after.hdf5')
 # 模型的标签
 class_names = ['雏菊', '蒲公英', '玫瑰', '向日葵', '郁金香']
 
@@ -35,7 +35,7 @@ def classifierhtml():
         img = base64_to_pil(request.json)
         img = img.resize((227, 227))
         #  把PIL对象 PIL对象numpy数组
-        img = tf.keras.utils.img_to_array(img)
+        img = utils.img_to_array(img)
         # 扩充一维
         img = tf.expand_dims(img, 0)
         # 使用cpu预测图片
@@ -55,10 +55,11 @@ def image_classifier():
         image_base64 = request.json
         # 获取图片url
         image_str = requests.get(image_base64['img_url'])
+
         # 把图片二进制数据流转换为PIL对象
         img = Image.open(BytesIO(image_str.content)).resize((227, 227))
         #  把PIL对象 PIL对象numpy数组
-        img = tf,keras.utils.img_to_array(img)
+        img = utils.img_to_array(img)
         # 扩充一维
         img = tf.expand_dims(img, 0)
         # 使用cpu预测图片
