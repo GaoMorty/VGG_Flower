@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author 大只
- * @date 2022-11-09
+ * @author gao
+ * @date 2023-05-08
  */
 @Configuration
 public class QCloudCosUtilsConfig {

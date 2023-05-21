@@ -11,8 +11,8 @@ import org.springframework.data.redis.serializer.SerializationException;
 import java.nio.charset.Charset;
 
 /**
- * @author 大只
- * @date 2022-11-06
+ * @author gao
+ * @date 2023-05-08
  */
 public class FastJsonRedisSerializer<T> implements RedisSerializer<T>
 {

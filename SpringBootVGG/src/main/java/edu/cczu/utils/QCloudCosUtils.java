@@ -17,8 +17,8 @@ import java.util.UUID;
 
 /**
  * 腾讯云对象存储工具类
- * @author 大只呀
- * @date 2022-11-09
+ * @author gao
+ * @date 2023-05-10
  */
 
 

@@ -26,9 +26,9 @@ spring:
         # 连接池中的最小空闲连接
         min-idle: 0
   datasource:
-    url: jdbc:mysql://localhost:3306/corn?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    username:
-    password:
+    url: jdbc:mysql://localhost:3306/flower?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: mysql
     driver-class-name: com.mysql.cj.jdbc.Driver
   servlet:
     multipart:
@@ -76,14 +76,14 @@ wx-config:
 ############## 腾讯对象存储 ##############
 qcloud:
   #API密钥secretId
-  secretId:
+  secretId: AKIDNXQ2XzFOM7i49yXtFrFNG0UigMr77vsY
   #API密钥secretKey
-  secretKey:
+  secretKey: Y3MNHvKXZO7lAI9aptgDVYKsFME060yl
   #存储桶所属地域
-  region:
+  region: ap-nanjing
   #存储桶空间名称
-  bucketName:
+  bucketName: vgg-1303838132
   #存储桶访问域名
-  url:
+  url: https://vgg-1303838132.cos.ap-nanjing.myqcloud.com
   #上传文件前缀路径(eg:/images/)
   prefix: /images/

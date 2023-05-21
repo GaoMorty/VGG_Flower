@@ -16,8 +16,8 @@ import java.util.List;
 /**
  * MVC配置类
  *
- * @author 大只
- * @since 2022-11-06 18:45:35
+ * @author gao
+ * @since 2023-05-08
  */
 
 @Configuration
