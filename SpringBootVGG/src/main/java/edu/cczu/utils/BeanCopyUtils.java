@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author 大只
- * @date 2022/9/21 13:10
+ * @author gao
+ * @date 2022/05/10 13:10
  */
 public class BeanCopyUtils {
 

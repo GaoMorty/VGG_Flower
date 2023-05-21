@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * MP配置类
- * @author 大只
- * @date 2022-10-11
+ * @author gao
+ * @date 2023-05-08
  */
 @Configuration
 public class MPConfig {

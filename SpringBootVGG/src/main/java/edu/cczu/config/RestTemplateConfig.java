@@ -7,8 +7,8 @@ import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author 大只
- * @date 2022-11-10
+ * @author gao
+ * @date 2023-05-07
  */
 @Configuration
 public class RestTemplateConfig {

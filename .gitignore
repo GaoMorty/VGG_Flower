@@ -1,28 +1,15 @@
 # 前端
-.DS_Store
-node_modules/
-/dist/
-dist/
-.project
-unpackage/
+/admin-ui/node_modules
 
-# Java
+# 后端
 HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+/SpringBootVGG/target
 
-# 编辑器
-.vscode/
-.idea
-*.iws
-*.iml
-*.ipr
-.mvn
-mvnw*
-# AI
+# Ai
+/Ai/__pycache__
 /Ai/dataset
 /Ai/model
-/__pycache__
-/Ai/__pycache__
+
+# 小程序
+/phone-ui/uni_modules
+

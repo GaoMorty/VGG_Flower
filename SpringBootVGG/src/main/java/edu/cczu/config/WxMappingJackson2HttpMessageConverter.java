@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author 大只
- * @date 2022-11-12
+ * @author gao
+ * @date 2023-05-08
  */
 public class WxMappingJackson2HttpMessageConverter extends MappingJackson2HttpMessageConverter {
     public WxMappingJackson2HttpMessageConverter(){

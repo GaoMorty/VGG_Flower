@@ -18,8 +18,8 @@ import java.util.Collections;
 /**
  * Swagger配置类
  *
- * @author 大只
- * @date 2022-11-06
+ * @author gao
+ * @date 2023-05-08
  */
 @Configuration
 @EnableSwagger2
@@ -46,9 +46,9 @@ public class SwaggerConfig {
                 .title("苞米豆api文档")
                 .description("一个基于VGG神经网络的花卉识别定位信息采集系统，代号：苞米豆。通过这个系统能够识别花卉的种类然后将信息保存到数据库中，并在地图上进行标记，共享给其他人查看。")
                 .termsOfServiceUrl("https://www.abinya.top")
-                .contact(new Contact("大只",
+                .contact(new Contact("gao",
                         "https://www.abinya.top",
-                        "1919302385@qq.com"))
+                        "g60052823@gmaol.com"))
                 .version("1.0")
                 .build();
     }

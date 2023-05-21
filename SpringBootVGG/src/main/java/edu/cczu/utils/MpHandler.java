@@ -11,8 +11,8 @@ import java.util.Objects;
 /**
  * MP拦截器
  *
- * @author 大只
- * @date 2022/10/11 19:21
+ * @author gao
+ * @date 2023/05/11
  */
 @Component
 public class MpHandler implements MetaObjectHandler {

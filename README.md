@@ -49,3 +49,18 @@ npm run serve
 ### AdminUI
 
 要求：Node版本<=16：node v17中的OpenSSL3.0对允许算法和密钥大小增加了严格的限制
+
+# 依赖
+- SpringBoot
+	- IDEA
+	- Maven
+	- JDK8
+	- MariaDB
+	- Redis
+	- COS
+- AI
+	- Anaconda
+
+- Vue
+	- Node.JS
+	- HBuildX

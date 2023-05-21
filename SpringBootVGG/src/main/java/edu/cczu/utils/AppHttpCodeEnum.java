@@ -3,8 +3,8 @@ package edu.cczu.utils;
 /**
  * 响应状态枚举类
  *
- * @author 大只
- * @date 2022-11-06
+ * @author gao
+ * @date 2023-05-10
  */
 public enum AppHttpCodeEnum {
     SUCCESS(200, "操作成功"),
